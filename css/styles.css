@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Indie Flower', cursive;
-    font-size: 20px;
 }
 
 body {
@@ -12,9 +11,12 @@ body {
 /* Style the header */
 
 .header {
-    background-color: lime;
-    padding: 20px;
+    background-image: url('../img/fachero.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
     text-align: center;
+    color: red;
 }
 
 .header1 {
@@ -27,16 +29,27 @@ body {
 
 /*Ejemplo de estilos por clase*/
 
-.column {
+.one-column {
     float: left;
     width: 100%;
     /*padding: 0 20% 0 20%;*/
     padding: 20px 20%;
 }
 
-.column h2 {
-    color: green;
+.one-column h1,
+.one-column h2 {
     text-align: center;
+}
+
+.two-column {
+    float: left;
+    width: 50%;
+    /*padding: 0 20% 0 20%;*/
+    padding: 20px;
+}
+
+#cadetblue {
+    background-color: cadetblue;
 }
 
 
@@ -46,6 +59,24 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+
+/*Three columns gallery*/
+
+.three-column {
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+}
+
+.three-column img {
+    width: 100%;
+}
+
+.three-column .desc {
+    padding: 10px;
+    text-align: center;
 }
 
 .gallery {
