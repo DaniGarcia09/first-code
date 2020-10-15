@@ -48,8 +48,31 @@ body {
     padding: 20px;
 }
 
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
 #cadetblue {
     background-color: cadetblue;
+}
+
+#footer-a {
+    background-color: #25670295;
+}
+
+#footer-a p {
+    color: white;
+}
+
+#footer-b {
+    background: yellowgreen;
+}
+
+#footer-b p {
+    color: #212529;
+    text-align: center;
 }
 
 
